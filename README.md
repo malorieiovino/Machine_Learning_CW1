@@ -21,6 +21,9 @@ The dataset, known as the Infrared Thermography Temperature Dataset, contains:
   - **Regression:** `aveOralF` and `aveOralM` (oral temperature readings in fast and monitor modes).
   - **Classification:** Derived fever variables based on whether the oral temperature meets or exceeds 37.5°C.
 
+**Data Source:**  
+The dataset was obtained from the [UCI Machine Learning Repository](https://github.com/uci-ml-repo/ucimlrepo).
+
 ## Methodology
 
 The project follows a structured approach:
@@ -41,7 +44,7 @@ The project follows a structured approach:
    - Evaluate models using appropriate metrics (MSE, RMSE, R² for regression; accuracy, precision, recall, F1, ROC AUC, and Precision-Recall curves for classification).
 
 4. **Model Optimization:**
-   - Employ GridSearchCV for hyperparameter tuning to improve model performance.
+   - Employ GridSearchCV to systematically explore hyperparameters, boosting model performance.
    - Compare different models based on performance metrics and visualizations.
 
 5. **Feature Importance Analysis:**
@@ -58,3 +61,4 @@ The project follows a structured approach:
    ```bash
    git clone https://github.com/malorieiovino/Machine_Learning_CW1.git
    cd Machine_Learning_CW1
+
